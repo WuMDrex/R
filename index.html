@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Para Ruth</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#fdf3f0;--card:#fff;--ink:#4a2f33;--soft:#8a6a6e;--rose:#c9566b;--gold:#b8924a;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#2a1a1e;--card:#3a2429;--ink:#f6e4e2;--soft:#cfa9ad;--rose:#ec8aa0;--gold:#e0bd7c;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#2a1a1e;--card:#3a2429;--ink:#f6e4e2;--soft:#cfa9ad;--rose:#ec8aa0;--gold:#e0bd7c;color-scheme:dark}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:'Montserrat',system-ui,sans-serif;font-weight:300;line-height:1.8}
+main{max-width:640px;margin:0 auto;padding:0 22px 60px}
+.hero{min-height:88vh;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center}
+h1{font-family:'Cormorant Garamond',Georgia,serif;font-weight:600;font-size:clamp(3.4rem,15vw,5.6rem);margin:.1em 0;color:var(--rose);letter-spacing:.02em}
+.sub{font-family:'Cormorant Garamond',Georgia,serif;font-style:italic;font-size:1.4rem;color:var(--soft)}
+.dove{font-size:2.6rem;animation:float 4s ease-in-out infinite}
+@keyframes float{50%{transform:translateY(-10px)}}
+.hint{margin-top:2.5rem;font-size:.8rem;color:var(--soft);letter-spacing:.2em;text-transform:uppercase}
+.verse{background:var(--card);border-radius:18px;padding:30px 26px;margin:34px 0;text-align:center;box-shadow:0 8px 30px rgba(201,86,107,.12);border-top:3px solid var(--gold)}
+.verse p{font-family:'Cormorant Garamond',Georgia,serif;font-style:italic;font-size:1.45rem;line-height:1.55;margin:0 0 .6em}
+.verse span{font-size:.8rem;letter-spacing:.18em;text-transform:uppercase;color:var(--gold)}
+.msg{padding:14px 4px;font-size:1.05rem}
+.msg strong{font-weight:400;color:var(--rose)}
+.big{font-family:'Cormorant Garamond',Georgia,serif;font-size:1.9rem;line-height:1.35;text-align:center;color:var(--rose);margin:44px 0}
+.invite{text-align:center;margin-top:50px;padding:36px 22px;border-radius:22px;background:var(--card);box-shadow:0 10px 36px rgba(201,86,107,.18)}
+.invite h2{font-family:'Cormorant Garamond',Georgia,serif;font-size:2rem;margin:0 0 .4em;color:var(--rose)}
+.btn{display:inline-block;margin-top:22px;padding:16px 30px;border-radius:50px;background:var(--rose);color:#fff;text-decoration:none;font-size:1rem;letter-spacing:.03em;box-shadow:0 6px 20px rgba(201,86,107,.4);transition:transform .2s}
+.btn:hover{transform:scale(1.05)}
+.fade{opacity:0;transform:translateY(24px);transition:all 1s ease}
+.fade.show{opacity:1;transform:none}
+.heart{position:fixed;bottom:-30px;pointer-events:none;animation:up linear forwards;opacity:.7}
+@keyframes up{to{transform:translateY(-110vh) rotate(25deg);opacity:0}}
+</style>
+</head>
+<body>
+<main>
+  <section class="hero">
+    <div class="dove">🕊️</div>
+    <h1>Ruth</h1>
+    <div class="sub">Esto es para ti</div>
+    <div class="hint">desliza ↓</div>
+  </section>
+
+  <div class="verse fade">
+    <p>“Prendiste mi corazón con una sola de tus miradas.”</p>
+    <span>Cantares 4:9</span>
+  </div>
+
+  <p class="msg fade">Tus ojos me enamoran, Ruth. Hay algo en tu mirada que transmite paz, ternura y una luz que no se puede disimular.</p>
+
+  <div class="verse fade">
+    <p>“He aquí que eres hermosa, amiga mía; he aquí eres hermosa; tus ojos son como palomas.”</p>
+    <span>Cantares 1:15</span>
+  </div>
+
+  <div class="verse fade">
+    <p>“Mujer virtuosa, ¿quién la hallará? Su valor sobrepasa largamente al de las piedras preciosas.”</p>
+    <span>Proverbios 31:10</span>
+  </div>
+
+  <p class="msg fade">Cada día que te conozco, <strong>me gustas más</strong>. Y lo mismo me pasa al conocer a tu familia: se nota de dónde viene tu corazón. No tengo duda de que eres una persona de <strong>mucho valor</strong>, y me encantaría formar algo contigo.</p>
+
+  <div class="verse fade">
+    <p>“El que halla esposa halla el bien, y alcanza la buena voluntad de Jehová.”</p>
+    <span>Proverbios 18:22</span>
+  </div>
+
+  <p class="msg fade">Mi amistad va sin condición, y así seguirá. Pero también te digo con sinceridad que mi deseo de conocerte más y de estar contigo sigue presente, y no se va.</p>
+
+  <div class="verse fade">
+    <p>“Adonde tú vayas, iré yo.”</p>
+    <span>Rut 1:16</span>
+  </div>
+
+  <div class="big fade">Y por eso quiero lo mejor para cerrar…</div>
+
+  <section class="invite fade">
+    <div style="font-size:2.2rem">💌</div>
+    <h2>¿Me acompañas?</h2>
+    <p>Quiero invitarte al altar conmigo el próximo domingo, y también a la vigilia, juntos.</p>
+    <a class="btn" href="https://wa.me/50259962648?text=Obvio%20que%20s%C3%AD%20ir%C3%ADa%20contigo%20%F0%9F%98%8F" target="_blank" rel="noopener">Vamos 💬</a>
+  </section>
+</main>
+<script>
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('show');io.unobserve(e.target)}}),{threshold:.2});
+document.querySelectorAll('.fade').forEach(el=>io.observe(el));
+setInterval(()=>{const h=document.createElement('div');h.className='heart';h.textContent=['💗','🤍','✨'][Math.floor(Math.random()*3)];h.style.left=Math.random()*100+'vw';h.style.fontSize=(14+Math.random()*16)+'px';h.style.animationDuration=(6+Math.random()*5)+'s';document.body.appendChild(h);setTimeout(()=>h.remove(),11000)},1400);
+</script>
+</body>
+</html>
